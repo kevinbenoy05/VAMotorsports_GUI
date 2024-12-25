@@ -1,0 +1,18 @@
+project-root/
+├── data/                     # Folder for sample/mock data
+│   ├── mock_can_data.json    # Simulated CAN data
+│   ├── sample_packets.json   # Mock transmitted packets
+├── src/                      # Source code folder
+│   ├── main.py               # Entry point of your application
+│   ├── can_simulator.py      # CAN data generator (mock)
+│   ├── transmission.py       # Handles LoRa/WiFi-like transmission
+│   ├── receiver.py           # Handles data reception
+│   ├── decoder.py            # Decodes CAN data into readable format
+│   ├── gui/                  # GUI-related code
+│   │   ├── dashboard.py      # Main GUI dashboard logic
+│   │   └── charts.py         # Live chart utilities
+├── tests/                    # Test scripts folder
+│   ├── test_decoder.py       # Tests for decoding logic
+│   ├── test_transmission.py  # Tests for mock transmission
+├── requirements.txt          # Dependencies list
+├── README.md                 # Project documentation

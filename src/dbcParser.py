@@ -5,7 +5,6 @@ files = { # List of DBC files
     "IZZE_IRTS_BRAKE_V2":"dbc_files\\IZZE_IRTS_BRAKE_V2.dbc",
     "vcu": "dbc_files\\vcu.dbc"
 }
-
 def getSensors(files):
     sensors = {}
     for name, path in files.items():
@@ -31,17 +30,13 @@ def getSensors(files):
         except cantools.database.errors.Error as e:
             print(f"Error loading {name}: {e}\n")
     return sensors
-def printSensors(sensorList):
+def printSensors(sensorList): # For debugging
     for dbc_name, messages in sensorList.items():
         print(f"\n=== DBC File: {dbc_name} ===")
         for frame_id, details in messages.items():
             print(f"Frame ID: {frame_id} | Message: {details['name']}")
             for signal in details["signals"]:
                 print(f"  - Signal: {signal['name']}, Units: {signal['units']}, Min: {signal['min']}, Max: {signal['max']}")
-# printSensors(getSensors(files))
 
 with open("mock_data\signal_ranges.json", "w") as file:
     json.dump(getSensors(files), file, indent=4)
-
-
-

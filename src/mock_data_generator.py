@@ -49,9 +49,9 @@ def generateCANDataFile(samples):
                 mock_data_list.append(mockMsg)
         json.dump(mock_data_list, file, indent=4)
 def streamData():
-    host = "127.0.0.1"
-    port = 5000
-    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    host = "0.0.0.0"
+    port = 5050
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
     server.bind((host, port))
     server.listen(1)
     print(f"Streaming CAN data on {host}:{port}")
@@ -66,18 +66,14 @@ def streamData():
                     # Generate mock message
                     mock_message = genrateMockCANMsg(id, message)
                     mock_message["timestamp"] = datetime.now().isoformat()
-
                     # Send data to the client
                     connection.sendall(json.dumps(mock_message).encode() + b"\n")
                     time.sleep(1)  # Adjust delay to reduce connection stress
                 except (ConnectionAbortedError, ConnectionResetError, BrokenPipeError) as e:
                     print(f"Connection lost: {e}")
-                    return
     except Exception as e:
         print(f"Error: {e}")
     finally:
         print("Server closed")
         connection.close()
         server.close()
-
-streamData()

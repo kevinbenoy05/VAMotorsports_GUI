@@ -1,0 +1,2 @@
+ * Write a script to create AP projects from preconfigured makefiles (simple) or makefile templates (advanced)
+ * The script should set default variables (e.g. current path will be AP_PATH by default unless you specify it to be different)

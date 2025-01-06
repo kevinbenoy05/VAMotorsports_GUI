@@ -1,1 +1,242 @@
-{"timestamp": "2024-12-29T16:17:05.414467", "message": {"LF_Sensor_Temp": -74.2}}
+[
+    {
+        "timestamp": "2025-01-04T21:14:32.783025",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.785025",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.799033",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.838076",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.850081",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.906330",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.937197",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.967194",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.980195",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.993203",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.007734",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.033762",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.131260",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.249115",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.293137",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.355173",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.400190",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.445710",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.490721",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.520238",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.550237",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.595242",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.670586",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.727128",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.755128",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.904708",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.922723",
+        "message": {
+            "LF_Sensor_Temp": 158.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.937720",
+        "message": {
+            "RR_Rotor_Temp_13": 415.0,
+            "RR_Rotor_Temp_14": 929.0,
+            "RR_Rotor_Temp_15": 1443.0,
+            "RR_Rotor_Temp_16": 1957.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:34.011239",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:34.098254",
+        "message": {
+            "LR_Rotor_Temp_09": 286.5,
+            "LR_Rotor_Temp_10": 800.5,
+            "LR_Rotor_Temp_11": 1314.5,
+            "LR_Rotor_Temp_12": 1828.5
+        }
+    }
+]

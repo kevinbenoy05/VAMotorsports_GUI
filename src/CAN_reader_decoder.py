@@ -1,3 +1,4 @@
+import os
 import cantools, can, json, datetime
 # List of DBC Files
 ams = cantools.db.load_file("dbc_files\\ams.dbc")
@@ -35,12 +36,23 @@ def logData(id, message):
         file = "json_logs\\cm200.json"
     elif 0x2f0a000 <= id <= 0x2f0a044:
         file = "json_logs\\vcu.json"
-    with open(file, "a") as log:
-        entry = {
-            "timestamp": datetime.datetime.now().isoformat(),
-            "message": decodeMessage(id, message)
-        }
-        log.write(json.dumps(entry) + "\n")
+    entry = {
+        "timestamp": datetime.datetime.now().isoformat(),
+        "message": decodeMessage(id, message)
+    }
+    if os.path.exists(file):
+        try:
+            with open(file, "r") as log:
+                data = json.load(log)
+                if not isinstance(data, list):
+                    data = []  #
+        except (json.JSONDecodeError, FileNotFoundError):
+            data = []
+    else:
+        data = []
+    data.append(entry)
+    with open(file, "w") as log:
+        json.dump(data, log, indent=4)
 """Read data from a CAN Bus -> Logs it into it's respective JSON file
     - MUST BE IMPLEMENTED LATER WITH HARDWARE ACCESS"""
 def readCANBus():

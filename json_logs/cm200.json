@@ -1,0 +1,191 @@
+[
+    {
+        "timestamp": "2025-01-04T21:14:32.784027",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:32.813568",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.119260",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.159262",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.220117",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.235117",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.278116",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.309646",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.413711",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.506232",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.565231",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.581237",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.624764",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.654586",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.684583",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.700589",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.804641",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.835178",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.865181",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.905721",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.907720",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.983718",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:33.997727",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:34.024240",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-04T21:14:34.053238",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    }
+]

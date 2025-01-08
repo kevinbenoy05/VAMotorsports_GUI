@@ -22,7 +22,7 @@ def getSerialData():
                 data = port.readLine().decode("utf-8").strip()
                 if data != None:
                     can = parse(data)
-                    CAN_reader_decoder.logData(can["id"], can["message"])
+                    CAN_reader_decoder.logDataToJSON(can["id"], can["message"])
     except serial.SerialException as e:
         print(f"Error: {e}")
     except KeyboardInterrupt:

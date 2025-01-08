@@ -1,5 +1,9 @@
-from CAN_reader_decoder import logData
-import random
+from CAN_reader_decoder import logDataToDB, logDataToJSON
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+import random, urllib
+uri = "mongodb+srv://kevinbenoy:" + urllib.parse.quote("VAMS@1644")+"@cluster.simtg.mongodb.net/?retryWrites=true&w=majority&appName=cluster"
+client = MongoClient(uri, server_api=ServerApi(version='1', strict=True, deprecation_errors=True))
 # Valid data for 100 calls
 valid_data = [
     (0x4c8, bytes([10, 20, 30, 40, 50, 60, 70, 80, 34])),
@@ -17,6 +21,8 @@ valid_data = [
 ]
 
 # Call logData with valid data
+client._connect()
 for i in range(100):
     can_id, message = random.choice(valid_data)
-    logData(can_id, message)
+    logDataToDB(can_id, message)
+client.close()

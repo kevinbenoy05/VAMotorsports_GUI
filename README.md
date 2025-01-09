@@ -1,6 +1,13 @@
-## Full ReadME will be completed once project is closed to finished!
+# VA Motorsports Live GUI
 
-This is a live GUI from VA Motorsports team car to view and collect data for on track and off track desicions. Data will also eventually be shown on a website for the public to see 
+## Project Overview
+This project provides a real-time GUI for the VA Motorsports team to collect and visualize car performance data both on-track and off-track. It helps in making informed decisions during races and testing sessions. The data will eventually be available on a public website for broader access.
 
-MongoDB Atlas Keys are hidden
+## Features
+- Real-time collection of CAN data from car to DB using LoRa transmission
+- Integration with MongoDB Atlas for secure data storage
+- Planned public data sharing through a website
 
+## Future Plans
+- **Website**: Public display of performance data
+- **Past Data**: Create charts/information from past data

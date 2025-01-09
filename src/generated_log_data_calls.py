@@ -5,9 +5,9 @@ import random, urllib, os
 from dotenv import load_dotenv
 
 load_dotenv()
-username = os.getenv("username")
-password = os.getenv("password")
-uri = "mongodb+srv://kevinbenoy:" + urllib.parse.quote("VAMS@1644")+"@cluster.simtg.mongodb.net/?retryWrites=true&w=majority&appName=cluster"
+username = os.getenv("MONGO_USERNAME")
+password = os.getenv("MONGO_PASSWORD")
+uri = f"mongodb+srv://{username}:{password}@cluster.simtg.mongodb.net/?retryWrites=true&w=majority&appName=cluster"
 client = MongoClient(uri, server_api=ServerApi(version='1', strict=True, deprecation_errors=True))
 # Valid data for 100 calls
 valid_data = [
@@ -24,10 +24,16 @@ valid_data = [
     (0x2f0a010, bytes([9, 10, 11, 12, 13, 14, 15, 16])),
     (0x2f0a044, bytes([17, 18, 19, 20, 21, 22, 23, 24]))
 ]
+#Ping MongoDB 
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(e)
 
 # Call logData with valid data
-client._connect()
-for i in range(100):
-    can_id, message = random.choice(valid_data)
-    logDataToDB(can_id, message)
-client.close()
+# client._connect()
+# for i in range(100):
+#     can_id, message = random.choice(valid_data)
+#     logDataToDB(can_id, message)
+# client.close()

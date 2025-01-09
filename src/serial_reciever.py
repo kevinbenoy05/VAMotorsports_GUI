@@ -6,8 +6,8 @@ def parse(message):
     try:
         splitMessage = message.split()
         if(len(splitMessage)==2):
-             id = parts[0].split(":")[1]
-             message = parts[1].split(":")[1]
+             id = splitMessage[0].split(":")[1]
+             message = splitMessage[1].split(":")[1]
         return {
             "id": id.strip(),
             "message": message.strip()
@@ -21,12 +21,10 @@ def getSerialData():
             while True:
                 data = port.readLine().decode("utf-8").strip()
                 if data != None:
+                    print(data)
                     can = parse(data)
-                    CAN_reader_decoder.logDataToJSON(can["id"], can["message"])
+                    CAN_reader_decoder.logDataToDB(can["id"], can["message"])
     except serial.SerialException as e:
         print(f"Error: {e}")
     except KeyboardInterrupt:
-        print("\nExiting...")
-
-
-    
+        print("\nExiting...")    

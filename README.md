@@ -1,1 +1,3 @@
-test commit to make sure repo works
+Database Keys are hidden
+
+Full ReadME will be completed once project is closed to finished!

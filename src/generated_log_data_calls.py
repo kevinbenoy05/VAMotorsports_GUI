@@ -1,8 +1,13 @@
 from CAN_reader_decoder import logDataToDB, logDataToJSON
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-import random, urllib
-uri = "mongodb+srv://kevinbenoy:" + urllib.parse.quote("VAMS@1644")+"@cluster.simtg.mongodb.net/?retryWrites=true&w=majority&appName=cluster"
+import random, urllib, os
+from dotenv import load_dotenv
+
+load_dotenv()
+username = os.getenv("username")
+password = os.getenv("password")
+uri = "mongodb+srv://{username}:" + urllib.parse.quote(password)+"@cluster.simtg.mongodb.net/?retryWrites=true&w=majority&appName=cluster"
 client = MongoClient(uri, server_api=ServerApi(version='1', strict=True, deprecation_errors=True))
 # Valid data for 100 calls
 valid_data = [

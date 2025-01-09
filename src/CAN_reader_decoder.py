@@ -1,5 +1,5 @@
 import os
-import cantools, can, json, datetime, urllib
+import cantools, json, datetime, urllib
 from pymongo.mongo_client import MongoClient
 
 from pymongo.server_api import ServerApi
@@ -90,13 +90,15 @@ def logDataToDB(id, message):
 
 """Read data from a CAN Bus -> Logs it into it's respective JSON file
     - MUST BE IMPLEMENTED LATER WITH HARDWARE ACCESS"""
-def readCANBus():
-    bus = can.Bus(interface='socketcan', channel='vcan0', bitrate=250000)  # This has to be fixed with our CAN bus
-    for message in bus:
-        logDataToJSON(message.arbitration_id, message.data)
+# def readCANBus():
+#     bus = can.Bus(interface='socketcan', channel='vcan0', bitrate=250000)  # This has to be fixed with our CAN bus
+#     for message in bus:
+#         logDataToJSON(message.arbitration_id, message.data)
 
 
 """Things I need to fix:
     When logging, I can't continuously open and close the client for each add. 
     There must be a way, maybe when the car is on connect and when the car is off close(In C++....)
-        Then just call the functions as you need """
+        Then just call the functions as you need 
+    Maybe have a main method that continously gets the serial port output and have it run while you have the fcafr 
+        You cannot use without WiFi...."""

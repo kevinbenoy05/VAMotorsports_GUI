@@ -1,15 +1,18 @@
 import os
 import cantools, json, datetime, urllib
 from pymongo.mongo_client import MongoClient
-
 from pymongo.server_api import ServerApi
+from dotenv import load_dotenv
 # List of DBC Files
 ams = cantools.db.load_file("dbc_files\\ams.dbc")
 cm200 = cantools.db.load_file("dbc_files\\cm200.dbc")
 IZZE_IRTS_BRAKE = cantools.db.load_file("dbc_files\\IZZE_IRTS_BRAKE_V2.dbc")
 vcu = cantools.db.load_file("dbc_files\\vcu.dbc")
 #MongoDB Setup
-uri = "mongodb+srv://kevinbenoy:" + urllib.parse.quote("VAMS@1644")+"@cluster.simtg.mongodb.net/?retryWrites=true&w=majority&appName=cluster"
+load_dotenv()
+username = os.getenv("username")
+password = os.getenv("password")
+uri = "mongodb+srv://{username}:" + urllib.parse.quote(password)+"@cluster.simtg.mongodb.net/?retryWrites=true&w=majority&appName=cluster"
 client = MongoClient(uri, server_api=ServerApi(version='1', strict=True, deprecation_errors=True))
 
 

@@ -187,5 +187,161 @@
             "INV_Fast_Motor_Speed": 10275,
             "INV_Fast_DC_Bus_Voltage": 1284.5
         }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:20.823029",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:20.845970",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:20.863226",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.079245",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.161298",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.252623",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.269606",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.301630",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.316708",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.545661",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.569199",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.604295",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.674390",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.845890",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:21.932045",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:22.079650",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:22.196911",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:22.214778",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-01-16T19:35:22.297605",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
     }
 ]

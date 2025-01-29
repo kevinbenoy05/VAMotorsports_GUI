@@ -36,11 +36,11 @@ BS_:
 BU_:
 
 
-BO_ 256 Status: 8 Vector__XXX
+BO_ 256 Status: 9 Vector__XXX
 
-BO_ 257 Faults: 8 Vector__XXX
+BO_ 257 Faults: 9 Vector__XXX
 
-BO_ 258 Dashboard: 8 Vector__XXX
+BO_ 258 Dashboard: 9 Vector__XXX
 
 BO_ 259 Temp1: 9 Vector__XXX
  SG_ Temp1 : 0|8@0+ (1,0) [0|120] "C" Vector__XXX

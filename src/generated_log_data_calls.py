@@ -33,7 +33,7 @@ except Exception as e:
 
 # Call logData with valid data
 # client._connect()
-# for i in range(100):
-#     can_id, message = random.choice(valid_data)
-#     logDataToDB(can_id, message)
+for i in range(100):
+    can_id, message = random.choice(valid_data)
+    logDataToJSON(can_id, message)
 # client.close()

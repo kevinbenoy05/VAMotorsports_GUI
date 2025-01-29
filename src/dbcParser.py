@@ -37,3 +37,5 @@ def printSensors(sensorList): # For debugging
             print(f"Frame ID: {frame_id} | Message: {details['name']}")
             for signal in details["signals"]:
                 print(f"  - Signal: {signal['name']}, Units: {signal['units']}, Min: {signal['min']}, Max: {signal['max']}")
+with open("json_logs/sensor_list.json", "a") as file:
+    json.dump(getSensors(files), file, indent=5)

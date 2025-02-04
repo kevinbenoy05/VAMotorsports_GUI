@@ -7,7 +7,6 @@ Get and deserialize those protobuf messages
 Convert those incoming messages to JSON
 Add each json message(given database  object) to its mongodb database
 '''
-
 try:
         with serial.Serial("COM3", 9600, 1) as port:
                 proto = port.readline().decode("utf-8").strip()

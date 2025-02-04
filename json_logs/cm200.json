@@ -343,5 +343,149 @@
             "INV_Id_Command": 770.5,
             "INV_Iq_Command": 1027.5
         }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:19.869177",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:20.123297",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:20.343125",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:20.361935",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:20.424873",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:20.529175",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:20.573411",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:20.702209",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:20.861512",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.042658",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.091051",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.153787",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.295480",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.365784",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.398654",
+        "message": {
+            "INV_Fast_Torque_Command": 513.5,
+            "INV_Fast_Torque_Feedback": 770.5,
+            "INV_Fast_Motor_Speed": 10275,
+            "INV_Fast_DC_Bus_Voltage": 1284.5
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.511084",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.644615",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.681190",
+        "message": {
+            "INV_Torque_Capability": 642.0
+        }
+    },
+    {
+        "timestamp": "2025-02-04T18:04:21.697190",
+        "message": {
+            "INV_Modulation_Index": 0.2565,
+            "INV_Flux_Weakening_Output": 513.5,
+            "INV_Id_Command": 770.5,
+            "INV_Iq_Command": 1027.5
+        }
     }
 ]

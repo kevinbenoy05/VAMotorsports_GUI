@@ -1,0 +1,4 @@
+syntax = "proto32"
+message Test{
+    bool handshake = 1;
+}

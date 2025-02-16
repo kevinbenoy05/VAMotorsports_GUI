@@ -1,4 +1,4 @@
-syntax = "proto32"
+syntax = "proto2";
 message Test{
-    bool handshake = 1;
+    optional bool handshake = True;
 }
